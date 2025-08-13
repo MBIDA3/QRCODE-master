@@ -1,0 +1,84 @@
+.button1 {
+    -fx-background-color: #950606; /* Couleur d'arrière-plan */
+    -fx-text-fill: white; /* Couleur du texte */
+    -fx-font-size: 15px; /* Taille de la police */
+    -fx-padding: 10px 15px; /* Rembourrage (haut/bas gauche/droite) */
+}
+.button1:hover{
+    -fx-background-color: #950606; /* Couleur d'arrière-plan */
+    -fx-text-fill: white; /* Couleur du texte */
+    -fx-font-size: 15px; /* Taille de la police */
+    -fx-padding: 10px 15px; /* Rembourrage (haut/bas gauche/droite) */
+    -fx-effect: dropshadow(gaussian, rgba(255, 0, 0, 0.8), 10, 0.5, 0, 0);
+}
+.button2 {
+    -fx-background-color:#676262 /* Couleur d'arrière-plan */;
+    -fx-text-fill: white/* Couleur du texte */;
+    -fx-font-size: 15/* Taille de la police */;
+    -fx-padding: 10px 15px /* Rembourrage (haut/bas gauche/droite) */;
+}
+
+.button2:hover {
+    -fx-background-color: #676262;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-padding: 10px 15px;
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.8), 10, 0.5, 0, 0);
+}
+.button3 {
+    -fx-background-color:#18BB36  /* Couleur d'arrière-plan */;
+    -fx-text-fill: white/* Couleur du texte */;
+    -fx-font-size: 15/* Taille de la police */;
+    -fx-padding: 10px 15px /* Rembourrage (haut/bas gauche/droite) */;
+}
+
+.button3:hover {
+    -fx-background-color: #18BB36 ;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-padding: 10px 15px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 255, 0, 0.8), 10, 0.5, 0, 0);
+}
+.button4 {
+    -fx-background-color:#EBE30E /* Couleur d'arrière-plan */;
+    -fx-text-fill: white/* Couleur du texte */;
+    -fx-font-size: 15/* Taille de la police */;
+    -fx-padding: 10px 15px /* Rembourrage (haut/bas gauche/droite) */;
+}
+
+.button4:hover {
+    -fx-background-color: #EBE30E ;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-padding: 10px 15px;
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 0, 0.8), 10, 0.5, 0, 0);
+}
+.button5 {
+    -fx-background-color:#048CCF  /* Couleur d'arrière-plan */;
+    -fx-text-fill: white/* Couleur du texte */;
+    -fx-font-size: 15/* Taille de la police */;
+    -fx-padding: 10px 15px /* Rembourrage (haut/bas gauche/droite) */;
+}
+
+.button5:hover {
+    -fx-background-color: #048CCF  ;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-padding: 10px 15px;
+    -fx-effect: dropshadow(gaussian, #048CCF, 10, 0.5, 0, 0);
+}
+.button6 {
+    -fx-background-color:#08D1A8  /* Couleur d'arrière-plan */;
+    -fx-text-fill: white/* Couleur du texte */;
+    -fx-font-size: 15/* Taille de la police */;
+    -fx-padding: 10px 15px /* Rembourrage (haut/bas gauche/droite) */;
+}
+
+.button6:hover {
+    -fx-background-color: #08D1A8  ;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-padding: 10px 15px;
+    -fx-effect: dropshadow(gaussian,#08D1A8, 10, 0.5, 0, 0);
+}
+

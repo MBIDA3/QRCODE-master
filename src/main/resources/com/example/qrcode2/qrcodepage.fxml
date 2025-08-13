@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="416.0" prefWidth="601.0" style="-fx-background-color: #676262" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.qrcode2.QRCODEApplication">
+   <children>
+      <Pane prefHeight="416.0" prefWidth="275.0" style="-fx-background-color: #282828">
+         <children>
+            <TextField fx:id="urlTextField" layoutX="13.0" layoutY="61.0" prefHeight="41.0" prefWidth="247.0" />
+            <Label alignment="CENTER" layoutX="28.0" layoutY="40.0" prefHeight="18.0" prefWidth="183.0" text="Veillez entrer votre Information" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="12.0" />
+               </font>
+            </Label>
+            <Button fx:id="TextField" layoutX="51.0" layoutY="114.0" mnemonicParsing="false" onAction="#GeneratedButton" prefHeight="38.0" prefWidth="146.0" styleClass="button3" text="Générer"  />
+            <Button fx:id="TexFields" layoutX="69.0" layoutY="272.0" mnemonicParsing="false" onAction="#onHelp" prefHeight="30.0" prefWidth="115.0" styleClass="button4" text="Aide ?" />
+            <Label fx:id="helptext" layoutX="19.0" layoutY="262.0" textFill="WHITE" />
+            <Button layoutX="51.0" layoutY="169.0" mnemonicParsing="false" onAction="#decodeQRCode" prefHeight="44.0" prefWidth="146.0" styleClass="button3" text="Importer" />
+            <Button fx:id="historiqueButton" layoutX="70.0" layoutY="221.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="115.0" styleClass="button1" text="Historique" onAction="#onHistoryButton" />
+         </children></Pane>
+      <VBox fx:id="qrCode" layoutX="301.0" layoutY="25.0" prefHeight="243.0" prefWidth="275.0" />
+      <Button fx:id="saveButton" layoutX="301.0" layoutY="335.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="123.0" styleClass="button5" text="Enregister" />
+      <TextField fx:id="urlTextField2" layoutX="292.0" layoutY="291.0" prefHeight="26.0" prefWidth="290.0" />
+      <Button fx:id="customizeButton" layoutX="439.0" layoutY="335.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="135.0" styleClass="button6" text="Personnaliser" onAction="#customizeButton" />
+   </children>
+   <effect>
+      <ColorAdjust />
+   </effect>
+</AnchorPane>

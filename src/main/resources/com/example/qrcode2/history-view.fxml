@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.qrcode2.HistoryController"> <!-- Assurez-vous de spécifier le bon package et nom de classe -->
+    <TableView fx:id="historyTableView">
+        <columns>
+            <TableColumn text="URL" fx:id="urlColumn"/>
+            <TableColumn text="Date/Heure" fx:id="dateTimeColumn"/>
+        </columns>
+    </TableView>
+</VBox>

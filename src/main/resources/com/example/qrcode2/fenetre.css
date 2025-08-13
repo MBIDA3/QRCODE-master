@@ -1,0 +1,12 @@
+.help-vbox {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-font-family: "Arial", sans-serif;
+}
+.custom-alert{
+    -fx-background-color: #2C3E50;
+    -fx-text-fill: #ECF0F1;
+}
+.custom-dialog{
+
+}
