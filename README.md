@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📱 Générateur & Décodeur de QR Code en JavaFX
 
 Ce projet est une application de bureau réalisée en **Java avec JavaFX**, permettant de **générer** et **décoder** des QR Codes à partir d’une URL.
@@ -32,3 +33,6 @@ Il offre également des fonctionnalités de **personnalisation des couleurs** et
 
 ---
 
+=======
+# QRCODE-master
+>>>>>>> cb672cf88fb7e37a0af1f98b352f2cf0e8d6280c
